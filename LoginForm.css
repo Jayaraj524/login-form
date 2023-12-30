@@ -1,0 +1,70 @@
+.body{
+    margin:0;
+    padding:0;
+
+    width: 100%;
+}
+.container{
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size:300% 300%;
+    animation: color 12s ease-in-out infinite;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}    
+.loginform{
+    background: rgba(255, 255, 255,0.3);
+
+    padding: 20px;
+    border-radius: 10px;
+    height: 275px;
+    width: 250px;
+    
+}
+.loginform h2{
+    color: rgba(255, 255, 255,0.9);
+    text-decoration: white underline;
+}
+.form-group{
+
+display: block;  
+    margin-bottom: 20px;
+
+}
+input{
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+    border:2px solid white 
+    
+}
+button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 20px;
+    width: 75px;
+    border: 2px solid white;
+    margin-bottom: 35px;
+}
+button:hover{
+    background-color: green;
+    transition: 0.3s;
+
+}
+.form-group1{
+   
